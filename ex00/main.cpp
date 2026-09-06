@@ -2,7 +2,7 @@
 
 int	main(void)
 {
-	Zombie* heapZombie;
+	Zombie*	heapZombie;
 
 	std::cout << "--- heap ---" << std::endl;
 	heapZombie = newZombie("Foo");

@@ -2,8 +2,8 @@
 
 int	main(void)
 {
-	int	N = 5;
-	Zombie* horde = zombieHorde(N, "Horde");
+	int		N = 5;
+	Zombie*	horde = zombieHorde(N, "Horde");
 
 	if (!horde)
 		return (1);
